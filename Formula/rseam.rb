@@ -3,7 +3,7 @@ class Rseam < Formula
   homepage "https://github.com/reccles/rseam"
   url "https://github.com/reccles/rseam.git",
       tag: "v0.3.0",
-      revision: "ff04d4043d7b5aecb6485f470b2d0673690db8be"
+      revision: "d9d1c3dd16d78d74aa0edc22b0d280291880aada"
   version "0.3.0"
   license "MIT"
 
