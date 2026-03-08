@@ -2,9 +2,9 @@ class Rseam < Formula
   desc "Unofficial Rust CLI for the Seam API"
   homepage "https://github.com/reccles/rseam"
   url "https://github.com/reccles/rseam.git",
-      tag: "v0.2.0",
-      revision: "21ede97001b2d00d2e5694c5f2eacf387bc8a07e"
-  version "0.2.0"
+      tag: "v0.3.0",
+      revision: "ff04d4043d7b5aecb6485f470b2d0673690db8be"
+  version "0.3.0"
   license "MIT"
 
   depends_on "rust" => :build
