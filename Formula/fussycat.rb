@@ -3,25 +3,25 @@
 class Fussycat < Formula
   desc "AI agent that behaves like a Unix tool: task on stdin, answer on stdout"
   homepage "https://github.com/reccles/fussycat"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     depends_on arch: :arm64
     on_arm do
-      url "https://github.com/reccles/fussycat/releases/download/v0.1.0/fussycat-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "eb5cf0f129178745b5c167eb974dbeba8c1ac78f935b879b9b3fe9632d24c0ad"
+      url "https://github.com/reccles/fussycat/releases/download/v0.1.1/fussycat-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "1c7238fff873687b85f8a6dfcfdd2030b6cf30b50c5db88ce329370ed3eb211d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/reccles/fussycat/releases/download/v0.1.0/fussycat-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "48263cfcba4775ca064734019b540412a26da0ce012436732f9306dc2e3f83a2"
+      url "https://github.com/reccles/fussycat/releases/download/v0.1.1/fussycat-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "77d3e672718d024ac3f27de7bdffdce786ac3248795b57ddeac4309442e9cc05"
     end
     on_arm do
-      url "https://github.com/reccles/fussycat/releases/download/v0.1.0/fussycat-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ea1a987e05824adde14c8f35cb75ccf34c4038c8cd6df433791c2cedc9aa7791"
+      url "https://github.com/reccles/fussycat/releases/download/v0.1.1/fussycat-v0.1.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "f5fcef33e960e0bb5518381c084959545fcdcf34cb5c104ffe6857618d30e309"
     end
   end
 
